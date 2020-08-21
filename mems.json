@@ -1,0 +1,39 @@
+{"00001": {
+            "memberid": "00001",
+            "name": "Alice",
+            "claims": [
+                {"claimnum": 1, 
+                    "svcdt": "1/1/2020",
+                    "conditions": [{"1": "diabetes", "2": "COPD"}]}
+            ,
+                {"claimnum": 2, 
+                    "svcdt": "2/15/2020",
+                    "conditions": [{"1": "runny nose"}],
+                    "diags": [1, 2, 3]}
+            ],
+                    "labs": [
+                {"svcdt": "1/1/2020",
+                    "result": 5.5},
+                    {"svcdt": "2/15/2020", "result": 4.2}
+            ]
+},
+"00002": {
+    "memberid": "00002",
+    "name": "Bob",
+    "claims": [
+        {"claimnum": 1, 
+            "svcdt": "1/1/2019",
+            "conditions": [{"1": "diabetes", "2": "COPD"}]}
+    ,
+        {"claimnum": 2, 
+            "svcdt": "2/15/2019",
+            "conditions": [{"1": "cough"}],
+            "diags": [1, 2, 3]}
+    ],
+    "labs": [
+        {"svcdt": "1/1/2019",
+            "result": 1.2},
+            {"svcdt": "2/15/2020", "result": 3.3}
+    ]
+}
+}
